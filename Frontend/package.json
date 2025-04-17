@@ -1,0 +1,50 @@
+{
+  "name": "aggrotech",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 5174",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview  --host --port 5174"
+  },
+  "dependencies": {
+    "antd": "^5.14.0",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.2",
+    "dayjs": "^1.11.10",
+    "framer-motion": "^11.0.6",
+    "lucide-react": "^0.471.1",
+    "moment": "^2.30.1",
+    "nepali-date-converter": "^3.3.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-hooks-global-state": "^2.1.0",
+    "react-hot-toast": "^2.5.1",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.0",
+    "react-slick": "^0.30.3",
+    "react-to-pdf": "^1.0.1",
+    "react-toastify": "^11.0.3",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.8.1",
+    "tailwind-scrollbar": "^3.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}
